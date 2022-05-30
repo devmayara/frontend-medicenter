@@ -139,12 +139,6 @@ nav a:hover {
     height: 2px;
     margin: 10px 0px 20px 0px;
 }
-.widget_box{
-    background-color: #39aae1;
-    width: 150px;
-    height: 150px;
-    margin: 10px 0px 20px 0px;
-}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +185,17 @@ article .news_resume {
     line-height: 20px;
     color: #5c5c5c;
     margin-bottom: 30px;
+}
+.widget_boxs{
+    width: 100%;
+    height: auto;
+    flex: 1;
+}
+.widget_box {
+    background-color: #0079c7;
+    height: 140px;
+    width: 140px;
+    margin: 10px;
 }
 footer {
     background-color: #1e1e1e;
