@@ -4,7 +4,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 300px;
 }
 header {
     display: flex;
@@ -140,6 +139,12 @@ nav a:hover {
     height: 2px;
     margin: 10px 0px 20px 0px;
 }
+.widget_box{
+    background-color: #39aae1;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0px 20px 0px;
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -186,4 +191,60 @@ article .news_resume {
     line-height: 20px;
     color: #5c5c5c;
     margin-bottom: 30px;
+}
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.flexColumn {
+    flex-direction: column;
+}
+.footer_menu {
+    display: flex;
+}
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: #fff;
+}
+.fm1 {
+    background-color: #39aae1;
+}
+.fm2 {
+    background-color: #0079c7;
+}
+.fm3 {
+    background-color: #2b4c99;
+}
+.footer_title {
+    font-size: 21px;
+}
+.footer_desc {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_area {
+    display: flex;
+}
+.footer_areaintem {
+    flex: 1;
+    color: #fff;
+}
+footer .widget_title_text {
+    color: #fff;
+}
+.footer_copyright {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
 }
