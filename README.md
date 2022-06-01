@@ -1,15 +1,15 @@
 
-<h1 align="center">Página Web MediCenter</h1>
+<h1 align="center">Projeto Web MediCenter</h1>
 
-
-<p align="center">
-  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;
-</p>
 
 
 ## 📖 Sobre
 
-Demonstração:
+Projeto Web MediCenter, desenvolvido durante meus estudos com HTML5 e CSS3 puro.  <br>
+O projeto conta com responsividade mobile.
+
+
+## 📖 Demonstração: https://devmayara.github.io/medicenter/
 
 <div>
   <img height="350" src="https://raw.githubusercontent.com/devmayara/medicenter/main/assets/images/720p_.gif" style="max-width:100%;"/>
